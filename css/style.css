@@ -3,3 +3,43 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.row{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.screen-box{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+}
+
+#first-shoes{
+    background-color: red;
+}
+
+#second-shoes{
+    background-color: green;
+}
+
+#third-shoes{
+    background-color: yellow;
+}
+
+.offer-title{
+    color: yellow;
+}
+
+#third-shoes>.content>.offer-title{
+    color: green;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
